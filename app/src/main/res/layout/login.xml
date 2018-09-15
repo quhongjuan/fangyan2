@@ -27,10 +27,10 @@
 
     <TextView
         android:id="@+id/text"
-        android:layout_width="95dp"
+        android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:text="登录"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="55dp"/>
 
@@ -39,7 +39,7 @@
         android:layout_height="1dp"
         android:background="#696969"
         android:layout_below="@+id/text"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="0dp"
         />
 
 
@@ -117,7 +117,7 @@
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:background="#e2dFd6"
-        android:layout_marginLeft="220dp"
+        android:layout_marginLeft="225dp"
         android:text="忘记密码？" />
 
     <Button
@@ -127,7 +127,7 @@
         android:background="#e2dFd6"
         android:text="注册"
        android:layout_below="@+id/editText"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="0dp"
         android:layout_marginLeft="60dp"/>
 
 </RelativeLayout>

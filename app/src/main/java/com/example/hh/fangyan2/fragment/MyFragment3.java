@@ -8,6 +8,7 @@ import com.example.hh.fangyan2.R;
 import com.example.hh.fangyan2.activity.BaseActivity;
 import com.example.hh.fangyan2.activity.Kidding;
 import com.example.hh.fangyan2.activity.MainActivity;
+import com.example.hh.fangyan2.activity.Music;
 
 public class MyFragment3 extends BaseFragment {
     private Button bt1;
@@ -28,7 +29,7 @@ public class MyFragment3 extends BaseFragment {
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it1=new Intent(parentActivity, MainActivity.class);
+                Intent it1=new Intent(parentActivity, Music.class);
                 startActivity(it1);
             }
         });

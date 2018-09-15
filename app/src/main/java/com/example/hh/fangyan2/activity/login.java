@@ -76,8 +76,8 @@ public class login extends AppCompatActivity{
         bt2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent it=new Intent(login.this,forget_password.class);
-//                startActivity(it);
+             Intent it=new Intent(login.this,forget_password.class);
+               startActivity(it);
             }
         });
 

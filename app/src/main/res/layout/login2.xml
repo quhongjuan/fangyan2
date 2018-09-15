@@ -36,7 +36,7 @@
     <TextView
         android:layout_width="95dp"
         android:layout_height="40dp"
-        android:text=" 注   册"
+        android:text=" 注册"
         android:textSize="30dp"
         android:layout_marginTop="7dp"
         android:layout_centerHorizontal="true"

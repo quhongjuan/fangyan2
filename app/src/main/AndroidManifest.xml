@@ -34,7 +34,8 @@
         <activity android:name=".activity.Mo"/>
         <activity android:name=".activity.pingjia"/>
         <activity android:name=".activity.login"/>
-        <activity android:name=".activity.login2"/>
+        <activity android:name=".activity.Music"/>
+        <activity android:name=".activity.forget_password"/>
     </application>
 
 </manifest>
