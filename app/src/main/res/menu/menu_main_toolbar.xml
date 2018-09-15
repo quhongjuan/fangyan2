@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="101"
+        android:enabled="true"
+        android:icon="@drawable/login"
+        android:title="登录"
+        app:showAsAction="always"/>
+
+    <!--<item-->
+        <!--android:id="@+id/action_ckpt"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:enabled="true"-->
+        <!--android:icon="@drawable/checkpoint"-->
+        <!--android:title="检查点信息"-->
+        <!--app:showAsAction="always" />-->
+
+</menu>

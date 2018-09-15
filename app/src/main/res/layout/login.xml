@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBack">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_collapseMode="pin"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="#ffffff" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:text="登录"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#696969"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="5dp"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_below="@+id/text"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/partrail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+         />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_below="@+id/img"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blank"
+        android:hint="昵称"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_below="@id/img"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="70dp"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:background="@drawable/user"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_below="@+id/editText2"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blank"
+        android:hint="密码"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/lock"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="70dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:text="提  交"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/wangji"
+        android:layout_below="@id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="#e2dFd6"
+        android:layout_marginLeft="220dp"
+        android:text="忘记密码？" />
+
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:background="#e2dFd6"
+        android:text="注册"
+       android:layout_below="@+id/editText"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="60dp"/>
+
+</RelativeLayout>

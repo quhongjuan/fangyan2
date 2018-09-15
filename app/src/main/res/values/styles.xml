@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:textColorPrimary">@color/white</item>-->
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="actionOverflowButtonStyle">@style/ActionButton.Overflow.App</item>
+    </style>
+
+    <style name="ActionButton.Overflow.App" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_overflow</item>
+    </style>
+
+    <style name="CollapsingToolbarTitleStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+    <style name="MaterialTheme.DrawerArrowToggle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#fff</item>
+    </style>
+
+    <style name="tab_menu_item">
+
+        <item name="android:layout_width">0dp</item>
+
+        <item name="android:layout_weight">1</item>
+
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:button">@null</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:paddingTop">3dp</item>
+
+        <item name="android:background">@drawable/tab_menu_bg</item>
+
+        <item name="android:textColor">@drawable/tab_menu_text</item>
+
+        <item name="android:textSize">18sp</item>
+
+    </style>
+    <style name="MyTheme" parent="android:Theme.NoTitleBar.Fullscreen"/>
+
+</resources>

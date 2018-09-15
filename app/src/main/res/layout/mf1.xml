@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/scrol">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <ViewFlipper
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:flipInterval="3000"
+            android:outAnimation="@anim/right_out"
+            android:inAnimation="@anim/right_in"
+            android:id="@+id/vflp_help">
+
+            <include layout="@layout/page_help_one"/>
+
+            <include layout="@layout/page_help_two"/>
+
+            <include layout="@layout/page_help_three"/>
+
+            <include layout="@layout/page_help_four"/>
+
+        </ViewFlipper>
+<!--
+<com.example.hh.fangyan2.RoundImageView
+    android:id="@+id/tt"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_below="@id/vflp_help"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="50dp"
+    android:src="@color/colorBlack"/>
+
+-->
+
+
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/corner_view"
+            android:layout_below="@id/vflp_help"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            />
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:src="@drawable/pingtaitubiao"
+            android:layout_below="@id/vflp_help"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <com.example.hh.fangyan2.activity.MyList
+            android:id="@+id/list"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_below="@id/tt">
+
+
+        </com.example.hh.fangyan2.activity.MyList>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorBack"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_collapseMode="pin"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="#ffffff" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp">
+    <View
+        android:layout_width="380dp"
+        android:layout_height="0.5dp"
+        android:background="#696969"
+        android:layout_marginTop="55dp"
+        android:id="@+id/view" />
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:text=" 注   册"
+        android:textSize="30dp"
+        android:layout_marginTop="7dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blank"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="40dp"
+        android:hint="请输入昵称"/>
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blank"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="40dp"
+        android:hint="请输入密码"
+        />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blank"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="40dp"
+        android:hint="请再次输入密码"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:text="注册"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText10"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:background="@drawable/user"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="85dp"
+      />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/lock"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="70dp"
+       />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/lock"
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="70dp"
+       />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="65dp"
+        android:text="忘记密码可凭以下问题登录:"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blank"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="5dp"
+        android:hint="请输入您就读的小学"
+        />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:background="@drawable/blank"
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="5dp"
+        android:hint="请输入您父亲或母亲的出生年月"
+        />
+    </RelativeLayout>
+
+</RelativeLayout>
