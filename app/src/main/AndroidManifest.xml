@@ -19,6 +19,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activity.MainActivity">
@@ -33,9 +34,11 @@
         <activity android:name=".activity.Kidding"/>
         <activity android:name=".activity.Mo"/>
         <activity android:name=".activity.pingjia"/>
+        <activity android:name=".activity.login2"/>
         <activity android:name=".activity.login"/>
         <activity android:name=".activity.Music"/>
         <activity android:name=".activity.forget_password"/>
+        <activity android:name=".activity.result"/>
     </application>
 
 </manifest>

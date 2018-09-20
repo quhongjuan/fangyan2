@@ -18,6 +18,7 @@ import android.view.MenuItem;
 
 import com.example.hh.fangyan2.R;
 import com.example.hh.fangyan2.fragment.MyFragment1;
+import com.example.hh.fangyan2.fragment.MyFragment2;
 import com.example.hh.fangyan2.fragment.MyFragment3;
 import com.example.hh.fangyan2.util.SnackBarUtils;
 
@@ -167,7 +168,7 @@ public class MainActivity extends BaseActivity {
 
         tabFragments = new ArrayList<>();
         tabFragments.add(new MyFragment1());
-        tabFragments.add(new MyFragment1());
+        tabFragments.add(new MyFragment2());
         tabFragments.add(new MyFragment3());
 
         contentAdapter = new ContentPagerAdapter(getSupportFragmentManager());

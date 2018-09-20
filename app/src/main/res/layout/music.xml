@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:background="#e2dFd6"
-    android:layout_height="match_parent"
-   >
+    android:layout_height="match_parent">
 
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="15dp"
+                    android:text="音乐"
+                    android:textSize="20sp" />
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:layout_collapseMode="pin"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:titleTextColor="#ffffff" />
+
+
+        </android.support.design.widget.AppBarLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <Button
             android:layout_width="190dp"
             android:layout_height="171dp"
@@ -116,48 +148,5 @@
             android:id="@+id/t11"
             />
 
-
+        </RelativeLayout>
 </RelativeLayout>
-
-
-
-
-
-    <!-- <Button
-                android:layout_width="190dp"
-                android:layout_height="171dp"
-                android:background="@drawable/hebei"
-                android:text="#河北#"
-                android:textSize="20dp"
-                android:textColor="#fff"
-                />
-
-            <Button
-                android:layout_width="190dp"
-                android:layout_height="171dp"
-                android:background="@drawable/yue"
-                android:text="#粤语#"
-                android:textSize="20dp"
-                android:textColor="#fff"
-                />
-            <Button
-            android:layout_width="190dp"
-            android:layout_height="171dp"
-            android:background="@drawable/changsha"
-            android:text="#长沙话#"
-            android:textSize="20dp"
-            android:textColor="#fff"
-            />
-            <Button
-                android:layout_width="190dp"
-                android:layout_height="171dp"
-                android:background="@drawable/shanghai"
-                android:text="#上海话#"
-                android:textSize="20dp"
-                android:textColor="#fff"
-                />-->
-
-
-
-
-    <!---->

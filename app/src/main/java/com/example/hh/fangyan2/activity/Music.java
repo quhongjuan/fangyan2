@@ -149,7 +149,7 @@ public class Music extends AppCompatActivity  implements View.OnClickListener{
             case R.id.t9:
                 if(isRelease4)
                 {
-                    mePlayer4=MediaPlayer.create(this,R.raw.yueban);
+                    mePlayer4=MediaPlayer.create(this,R.raw.hnj);
                     isRelease4=false;
                 }
                 mePlayer4.start();
@@ -166,7 +166,7 @@ public class Music extends AppCompatActivity  implements View.OnClickListener{
             case R.id.t11:
                 if(isRelease5)
                 {
-                    mePlayer5=MediaPlayer.create(this,R.raw.yueban);
+                    mePlayer5=MediaPlayer.create(this,R.raw.awmz);
                     isRelease5=false;
                 }
                 mePlayer5.start();
