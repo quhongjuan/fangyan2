@@ -154,7 +154,7 @@ public class MainActivity extends BaseActivity {
     }
 
     private void initTab(){
-        mTabTl.setTabMode(TabLayout.MODE_SCROLLABLE);
+        mTabTl.setTabMode(TabLayout.MODE_FIXED);
         ViewCompat.setElevation(mTabTl, 30);
         mTabTl.setupWithViewPager(mContentVp);
     }
