@@ -61,7 +61,7 @@ public class MainActivity extends BaseActivity {
         mNavigationView = $(R.id.navigation_view);
 
 
-        mToolbar.setTitle("方言识別");
+        mToolbar.setTitle("方言识别");
 
         //这句一定要在下面几句之前调用，不然就会出现点击无反应
         setSupportActionBar(mToolbar);

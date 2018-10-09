@@ -74,7 +74,7 @@
 
             <TextView
                 android:id="@+id/text"
-                android:text="          目前我们APP只能识别6种方言（长沙话、河北话、闽南话、客家话、上海话和南昌话六种地方方言）,对于其他各地的方言真的识别不了，请确保您的语言在我们识别的范围内｡◕‿◕｡"
+                android:text="          目前我们APP只能识别6种方言（长沙话、河北话、南昌话、上海话、四川话和合肥话六种地方方言）,对于其他各地的方言真的识别不了，请确保您的语言在我们识别的范围内｡◕‿◕｡"
                 android:layout_width="match_parent"
                 android:textSize="20dp"
                 android:layout_marginTop="25dp"

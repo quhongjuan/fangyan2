@@ -23,8 +23,8 @@ import okhttp3.Response;
 
 public class login extends AppCompatActivity{
 
-    private Button bt1;
-    private Button bt2;
+    private android.widget.ImageButton bt1;
+    private android.widget.ImageButton bt2;
     private Button bt3;
     private EditText name;
     private EditText pass;
@@ -58,8 +58,8 @@ public class login extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
-        bt1=(Button)findViewById(R.id.zhuce);
-        bt2=(Button)findViewById(R.id.wangji);
+        bt1=(android.widget.ImageButton)findViewById(R.id.zhuce);
+        bt2=(android.widget.ImageButton)findViewById(R.id.wangji);
         bt3=findViewById(R.id.button3);
         name=(EditText)findViewById(R.id.editText2) ;
         pass=(EditText)findViewById(R.id.editText);
