@@ -45,7 +45,7 @@ public class Kidding extends AppCompatActivity{
         final ArrayList<Bean3> dataList = new ArrayList<Bean3>();
 
         dataList.add(new Bean3("笑话1", "http://www.360doc.com/content/16/0620/17/4666759_569313579.shtml",R.mipmap.dot));
-        dataList.add(new Bean3("笑话2", "http://www.pig66.com/show-1714-1114835-1.html",R.mipmap.dot));
+        dataList.add(new Bean3("笑话2", "http://www.360doc.com/content/17/1215/09/8510298_713243227.shtml",R.mipmap.dot));
         dataList.add(new Bean3("笑话3", "http://baijiahao.baidu.com/s?id=1602480786079558486&wfr=spider&for=pc",R.mipmap.dot));
         dataList.add(new Bean3("笑话4", "http://baijiahao.baidu.com/s?id=1596326167531023513&wfr=spider&for=pc",R.mipmap.dot));
         dataList.add(new Bean3("笑话5", "https://baijiahao.baidu.com/s?id=1573494971428634&wfr=spider&for=pc",R.mipmap.dot));
